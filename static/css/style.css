@@ -1,0 +1,173 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.navbar-brand>h4 {
+    color: rgb(148, 147, 147);
+    margin-left: 20px;
+    text-shadow: 2px 2px 1px white;
+}
+
+header {
+    background-color: (243, 243, 243);
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jobLabel>h4 {
+    text-align: left;
+    width: 100px;
+}
+
+.container-left {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+main {
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.wrapper {
+    position: absolute;
+    margin-bottom: 100px;
+    min-height: 100%;
+}
+
+.content {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 120px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #666;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    text-shadow: 1px 1px 2px black, 0 0 1em blue;
+    color: white;
+}
+
+form.login_form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+    padding: 10px;
+}
+
+.form_container>h1,
+.form_container>h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+}
+
+.title>th {
+    background-color: rgb(206, 206, 206);
+    padding: 10px 10px 10px 10px;
+}
+
+.data>td {
+    background-color: rgb(231, 231, 255);
+    padding: 10px 10px 10px 10px;
+}
+
+.data>.no {
+    background-color: rgb(255, 163, 163);
+}
+
+.data>.yes {
+    background-color: rgb(145, 255, 178);
+}
+
+.works>table {
+    width: 830px;
+}
+
+.data>.activity {
+    width: 350px;
+}
+
+.data>.finished {
+    width: 130px;
+}
+
+#complete {
+    width: 50px;
+}
+
+#addjob.btn {
+    margin-top: 10px;
+}
+
+.jobLabel>h4,
+.jobLabel>a {
+    float: left;
+}
+
+.jobLabel>a {
+    margin-left: 5px;
+}
+
+.works>table {
+    margin-bottom: 20px;
+}
+
+.btn {
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.7);
+}
+
+.navbar {
+    background-color: rgb(243, 243, 243);
+    box-shadow: 2px 0 7px rgba(0, 0, 0, 0.7);
+}
+
+p {
+    margin: 0 0 0 0;
+    height: auto;
+    line-height: 15px;
+}
+
+p>br {
+    height: 0;
+    width: 0;
+}
+
+.userPanel {
+    background-color: white;
+    border-radius: 20px;
+    width: 280px;
+    height: 70px;
+    padding: 10px;
+    box-shadow: inset 0 0 5px black;
+    align-content: center;
+}
+
+.userPanel>a {
+    margin: 0 auto;
+}
+
+.userPanel>p {
+    margin: auto;
+}
